@@ -6,6 +6,9 @@ Para su uso, puede ejecutar el proyecto en Visual Studio y ocupar la URL (https:
 
 # Dependencias
 -Microsoft.Asp.Net.Mvc
+
 -Microsoft.Asp.Net.Cors
+
 -Microsoft.Asp.Net.Razor
+
 -SwashBuckle
