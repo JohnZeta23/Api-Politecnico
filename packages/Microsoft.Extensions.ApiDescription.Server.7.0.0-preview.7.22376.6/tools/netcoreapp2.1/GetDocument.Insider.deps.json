@@ -1,0 +1,121 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.1": {
+      "GetDocument.Insider/7.0.0-preview.7.22376.6": {
+        "dependencies": {
+          "MicroBuild.Core": "0.3.0",
+          "Microsoft.DiaSymReader.Pdb2Pdb": "1.1.0-beta2-19575-01",
+          "Microsoft.Extensions.HostFactoryResolver.Sources": "7.0.0-preview.7.22375.6",
+          "Microsoft.Net.Compilers.Toolset": "4.4.0-1.22358.14",
+          "Microsoft.SourceLink.AzureRepos.Git": "1.2.0-beta-22357-02",
+          "Microsoft.SourceLink.GitHub": "1.2.0-beta-22357-02",
+          "System.Diagnostics.DiagnosticSource": "4.6.0"
+        },
+        "runtime": {
+          "GetDocument.Insider.dll": {}
+        }
+      },
+      "MicroBuild.Core/0.3.0": {},
+      "Microsoft.Build.Tasks.Git/1.2.0-beta-22357-02": {},
+      "Microsoft.DiaSymReader.Pdb2Pdb/1.1.0-beta2-19575-01": {},
+      "Microsoft.Extensions.HostFactoryResolver.Sources/7.0.0-preview.7.22375.6": {},
+      "Microsoft.Net.Compilers.Toolset/4.4.0-1.22358.14": {},
+      "Microsoft.SourceLink.AzureRepos.Git/1.2.0-beta-22357-02": {
+        "dependencies": {
+          "Microsoft.Build.Tasks.Git": "1.2.0-beta-22357-02",
+          "Microsoft.SourceLink.Common": "1.2.0-beta-22357-02"
+        }
+      },
+      "Microsoft.SourceLink.Common/1.2.0-beta-22357-02": {},
+      "Microsoft.SourceLink.GitHub/1.2.0-beta-22357-02": {
+        "dependencies": {
+          "Microsoft.Build.Tasks.Git": "1.2.0-beta-22357-02",
+          "Microsoft.SourceLink.Common": "1.2.0-beta-22357-02"
+        }
+      },
+      "System.Diagnostics.DiagnosticSource/4.6.0": {
+        "runtime": {
+          "lib/netstandard1.3/System.Diagnostics.DiagnosticSource.dll": {
+            "assemblyVersion": "4.0.4.0",
+            "fileVersion": "4.700.19.46214"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "GetDocument.Insider/7.0.0-preview.7.22376.6": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MicroBuild.Core/0.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-71NxN8xP8+n08w7XuEOpbzuerL45QRodeLfrjs51qCT8LbjARyfPEcSE30YqLjFtFl3km5eH5Oaqnq2p1hQbAw==",
+      "path": "microbuild.core/0.3.0",
+      "hashPath": "microbuild.core.0.3.0.nupkg.sha512"
+    },
+    "Microsoft.Build.Tasks.Git/1.2.0-beta-22357-02": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-yto8WbtyZivT8bvKb0AgzaBkMi99D6j8SHwWKAszuizhcQBca2gWCpePE0tTdrXS8RcMtaxGlTXOC/PYWUKJSA==",
+      "path": "microsoft.build.tasks.git/1.2.0-beta-22357-02",
+      "hashPath": "microsoft.build.tasks.git.1.2.0-beta-22357-02.nupkg.sha512"
+    },
+    "Microsoft.DiaSymReader.Pdb2Pdb/1.1.0-beta2-19575-01": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kY6eTNkeWLHvfOjg97Q7tgQKrPpX+Y3fR6fS4nyfpgFLHBxHriLBR4v3e9t71it91gIMEeKUqOqrFJ7Pj48eHA==",
+      "path": "microsoft.diasymreader.pdb2pdb/1.1.0-beta2-19575-01",
+      "hashPath": "microsoft.diasymreader.pdb2pdb.1.1.0-beta2-19575-01.nupkg.sha512"
+    },
+    "Microsoft.Extensions.HostFactoryResolver.Sources/7.0.0-preview.7.22375.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-nMrJJe8tJGYbFGqJEHB75FqJeoe3qbkuV9X7Y+brRqpg4GYQPTTUV8tHt6/kB0YQ/Hq0N16/YKKS33PC80cz6Q==",
+      "path": "microsoft.extensions.hostfactoryresolver.sources/7.0.0-preview.7.22375.6",
+      "hashPath": "microsoft.extensions.hostfactoryresolver.sources.7.0.0-preview.7.22375.6.nupkg.sha512"
+    },
+    "Microsoft.Net.Compilers.Toolset/4.4.0-1.22358.14": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Kv933SUHiyGqi7bGzyEQ2dsvtHutLBkEGDgGcZOAOIhmgczfDjBApc9cJPX2XfypkTea6AsnPE6AMXAEbWhR9A==",
+      "path": "microsoft.net.compilers.toolset/4.4.0-1.22358.14",
+      "hashPath": "microsoft.net.compilers.toolset.4.4.0-1.22358.14.nupkg.sha512"
+    },
+    "Microsoft.SourceLink.AzureRepos.Git/1.2.0-beta-22357-02": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+B0G7ixqqxdkwN+/nTjTRHKkyCEHlnMy6sO+mbWF9qnSAY+0r7s6xoravJ5AR4IOjMlSTDLHQWDV9b2oeZEAdA==",
+      "path": "microsoft.sourcelink.azurerepos.git/1.2.0-beta-22357-02",
+      "hashPath": "microsoft.sourcelink.azurerepos.git.1.2.0-beta-22357-02.nupkg.sha512"
+    },
+    "Microsoft.SourceLink.Common/1.2.0-beta-22357-02": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+QFQ7hw5KHXu1cv1cXlNXpNcz5g4tA/KI0WyvKgtt+TK5YQLIGaOiOoqHzkd2TzbTn0/P5DjfOlJySIJc33g4Q==",
+      "path": "microsoft.sourcelink.common/1.2.0-beta-22357-02",
+      "hashPath": "microsoft.sourcelink.common.1.2.0-beta-22357-02.nupkg.sha512"
+    },
+    "Microsoft.SourceLink.GitHub/1.2.0-beta-22357-02": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-9NJf1/acdzkZREFyzm+fwmgvM3AkdzfgPCcVHT/gru3UWaZT31VuaIAzECEbBqPD25Kw3tPe9B275hU+hotuIw==",
+      "path": "microsoft.sourcelink.github/1.2.0-beta-22357-02",
+      "hashPath": "microsoft.sourcelink.github.1.2.0-beta-22357-02.nupkg.sha512"
+    },
+    "System.Diagnostics.DiagnosticSource/4.6.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-mbBgoR0rRfl2uimsZ2avZY8g7Xnh1Mza0rJZLPcxqiMWlkGukjmRkuMJ/er+AhQuiRIh80CR/Hpeztr80seV5g==",
+      "path": "system.diagnostics.diagnosticsource/4.6.0",
+      "hashPath": "system.diagnostics.diagnosticsource.4.6.0.nupkg.sha512"
+    }
+  }
+}
